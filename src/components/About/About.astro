@@ -1,0 +1,26 @@
+---
+import SocialIcons from '../SocialIcons.astro';
+import Title from '../atoms/Title.astro';
+import "./about.css"
+
+
+---
+
+<section id="about" class="about">
+	<div class="about__container">
+		<img
+			class="about__img"
+			src="https://www.bpocenter.com.bo/wp-content/uploads/2017/11/10.jpg"
+			alt="Foto de perfil de Jhon Doe"
+		/>
+
+		<div class="about__content">
+			<Title margin="1rem" contenido="Sobre mí" />
+			<p class="about__text">
+				+15 años de experiencia como Desarrollador Web. Actualmente soy Creador de Contenido y Divulgador sobre Programación. Vivo en Jalisco, México. He trabajado en diferentes entornos: desde acelerar el desarrollo de start-ups hasta liderando equipos de empresas multinacionales.
+			</p>
+			<SocialIcons width="25" height="25"/>
+		</div>
+	</div>
+
+</section>
